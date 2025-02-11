@@ -21,12 +21,19 @@ function App() {
       </nav>
     </div>
   </header>
-  <section id="about" class="py-16 bg-blue-200">
-    <div class="container mx-auto px-6 text-center ">
+
+    
+
+  <section id="about" class="py-10 bg-blue-200  flex flex-row justify-center h-fit">
+   
+    <div class="container my-auto  text-center w-300 px-10">
       <h2 class="text-4xl font-bold text-gray-800 mb-4 hover:animate-spin" >About Me</h2>
-      <p class="text-lg text-gray-600">I am a passionate web developer with experience in building beautiful and functional websites. I love learning new technologies and applying them to real-world projects. Let's create something amazing!</p>
-    </div>
-  </section>
+      <p class="text-lg text-gray-600 flex  flex-wrap">I am a passionate web developer with experience in building beautiful and functional websites. I love learning new technologies and applying them to real-world projects. Let's create something amazing!</p>
+    </div >
+    <div class="container mx-auto px-6 text-center w-100 ">
+      <img src="image1.jpeg" alt="Image with Border" class="w-70 h-auto shadow-black"/></div>
+    
+  </section>s
 
   {/* <!-- Skills Section --> */}
   <section id="skills" class="py-16  md:bg-amber-600">  
