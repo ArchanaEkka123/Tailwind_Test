@@ -29,8 +29,8 @@ function App() {
   </section>
 
   {/* <!-- Skills Section --> */}
-  <section id="skills" class="py-16 bg-gray-100">
-    <div class="container mx-auto px-6 text-center md:bg-emerald-500 max-sm:bg-amber-300 max-md:bg-fuchsia-400 py-5" >
+  <section id="skills" class="py-16  md:bg-amber-600">
+    <div class="container mx-auto px-6 text-center max-sm:bg-amber-300 max-md:bg-fuchsia-400 py-5" >
       <h2 class="text-4xl font-bold text-gray-800 mb-4">Skills</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="bg-amber-100 p-6 rounded-lg shadow-lg">
@@ -64,36 +64,40 @@ function App() {
     <div class="container mx-auto px-6 text-center">
       <h2 class="text-4xl font-bold text-gray-800 mb-4">My Projects</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-fuchsia-200
+ p-6 rounded-lg shadow-lg">
           <h3 class="text-2xl font-semibold text-gray-800">Project 1</h3>
           <p class="text-gray-600">A simple project description. This is a cool project I worked on using HTML, CSS, and JavaScript.</p>
           <a href="https://portfolio-478n.vercel.app/" class="text-blue-500 hover:underline mt-2 block">View Project</a>
         </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-fuchsia-200 p-6 rounded-lg shadow-lg">
           <h3 class="text-2xl font-semibold text-gray-800">Project 2</h3>
           <p class="text-gray-600">Another project description. It was built with React and Node.js for a more dynamic and functional experience.</p>
           <a href="https://portfolio-478n.vercel.app/" class="text-blue-500 hover:underline mt-2 block">View Project</a>
         </div>
-        <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-fuchsia-200 p-6 rounded-lg shadow-lg">
           <h3 class="text-2xl font-semibold text-gray-800">Project 3</h3>
           <p class="text-gray-600">This project includes advanced Tailwind CSS layouts and custom animations for a unique user experience.</p>
-          <a href="https://portfolio-478n.vercel.app/" class="text-blue-500 hover:underline mt-2 block">View Project</a>
+          <a href="https://tailwind-project-gamma-amber.vercel.app/" class="text-blue-500 hover:underline mt-2 block">View Project</a>
         </div>
       </div>
     </div>
   </section>
 
   {/* <!-- Contact Section --> */}
-  <section id="contact" class="py-16 bg-gray-100">
-    <div class="container mx-auto px-6 text-center">
+  <section id="contact" class="py-16 bg-gradient-to-r from-blue-200 to-green-200 p-10">
+    <div class="container mx-auto px-6 text-center shadow-lg shadow-black rounded-xl w-4xl">
+      <div class="py-20">
       <h2 class="text-4xl font-bold text-gray-800 mb-4">Contact Me</h2>
       <p class="text-lg text-gray-600 mb-8">Feel free to reach out to me for collaboration, questions, or just to chat!</p>
       <form action="#" method="POST" class="max-w-xl mx-auto space-y-4">
-        <input type="text" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg" required/>
-        <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg" required/>
-        <textarea name="message" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-lg" rows="4" required></textarea>
+        <input type="text" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg bg-gray-50" required/>
+        <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg bg-gray-50" required/>
+        <textarea name="message" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-lg bg-gray-50" rows="4" required></textarea>
         <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Send Message</button>
       </form>
+      </div>
+      
    </div>
   </section>
   
