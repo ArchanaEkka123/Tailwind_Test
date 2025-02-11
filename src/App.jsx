@@ -22,60 +22,60 @@ function App() {
     </div>
   </header>
   <section id="about" class="py-16 bg-blue-200">
-    <div class="container mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold text-gray-800 mb-4">About Me</h2>
+    <div class="container mx-auto px-6 text-center ">
+      <h2 class="text-4xl font-bold text-gray-800 mb-4 hover:animate-spin" >About Me</h2>
       <p class="text-lg text-gray-600">I am a passionate web developer with experience in building beautiful and functional websites. I love learning new technologies and applying them to real-world projects. Let's create something amazing!</p>
     </div>
   </section>
 
   {/* <!-- Skills Section --> */}
-  <section id="skills" class="py-16  md:bg-amber-600">
+  <section id="skills" class="py-16  md:bg-amber-600">  
     <div class="container mx-auto px-6 text-center max-sm:bg-amber-300 max-md:bg-fuchsia-400 py-5" >
       <h2 class="text-4xl font-bold text-gray-800 mb-4">Skills</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-amber-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-amber-100 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-110 hover:shadow-2xl ">
           <h3 class="text-2xl font-semibold text-gray-800">HTML</h3>
           <p class="text-gray-600">I build semantic, well-structured HTML for accessible and responsive websites.</p>
         </div>
-        <div class="bg-amber-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-amber-100 p-6 rounded-lg shadow-lg  transform transition duration-500 hover:scale-110 hover:shadow-2xl">
           <h3 class="text-2xl font-semibold text-gray-800">CSS</h3>
           <p class="text-gray-600">I use modern CSS techniques like Flexbox and Grid to create layouts that are both beautiful and responsive.</p>
         </div>
-        <div class="bg-amber-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-amber-100 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-110 hover:shadow-2xl">
           <h3 class="text-2xl font-semibold text-gray-800">JavaScript</h3>
           <p class="text-gray-600">I write clean and efficient JavaScript code to make websites interactive and dynamic.</p>
         </div>
-        <div class="bg-amber-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-amber-100 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-110 hover:shadow-2xl">
           <h3 class="text-2xl font-semibold text-gray-800">React</h3>
           <p class="text-gray-600">I create fast and scalable applications with React, utilizing hooks, state management, and component-based architecture.</p>
         </div>
-        <div class="bg-amber-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-amber-100 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-110 hover:shadow-2xl">
           <h3 class="text-2xl font-semibold text-gray-800">Tailwind CSS</h3>
           <p class="text-gray-600">I use Tailwind CSS for efficient utility-first styling and creating custom, responsive designs.</p>
         </div>
-        <div class="bg-amber-100 p-6 rounded-lg shadow-lg">
+        <div class="bg-amber-100 p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-110 hover:shadow-2xl">
           <h3 class="text-2xl font-semibold text-gray-800">Node.js</h3>
           <p class="text-gray-600">I build backend services and APIs with Node.js for fast, scalable server-side applications.</p>
         </div>
       </div>
     </div>
   </section>
-  <section id="projects" class="py-16 bg-white">
+  <section id="projects" class="py-16 bg-pink-100">
     <div class="container mx-auto px-6 text-center">
       <h2 class="text-4xl font-bold text-gray-800 mb-4">My Projects</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 animate-slideInRight duration-700">
         <div class="bg-fuchsia-200
- p-6 rounded-lg shadow-lg">
+             p-6 rounded-lg shadow-lg hover:animate-bounce">
           <h3 class="text-2xl font-semibold text-gray-800">Project 1</h3>
           <p class="text-gray-600">A simple project description. This is a cool project I worked on using HTML, CSS, and JavaScript.</p>
           <a href="https://portfolio-478n.vercel.app/" class="text-blue-500 hover:underline mt-2 block">View Project</a>
         </div>
-        <div class="bg-fuchsia-200 p-6 rounded-lg shadow-lg">
+        <div class="bg-fuchsia-200 p-6 rounded-lg shadow-lg hover:animate-bounce">
           <h3 class="text-2xl font-semibold text-gray-800">Project 2</h3>
           <p class="text-gray-600">Another project description. It was built with React and Node.js for a more dynamic and functional experience.</p>
           <a href="https://portfolio-478n.vercel.app/" class="text-blue-500 hover:underline mt-2 block">View Project</a>
         </div>
-        <div class="bg-fuchsia-200 p-6 rounded-lg shadow-lg">
+        <div class="bg-fuchsia-200 p-6 rounded-lg shadow-lg hover:animate-bounce">
           <h3 class="text-2xl font-semibold text-gray-800">Project 3</h3>
           <p class="text-gray-600">This project includes advanced Tailwind CSS layouts and custom animations for a unique user experience.</p>
           <a href="https://tailwind-project-gamma-amber.vercel.app/" class="text-blue-500 hover:underline mt-2 block">View Project</a>
@@ -86,8 +86,8 @@ function App() {
 
   {/* <!-- Contact Section --> */}
   <section id="contact" class="py-16 bg-gradient-to-r from-blue-200 to-green-200 p-10">
-    <div class="container mx-auto px-6 text-center shadow-lg shadow-black rounded-xl w-4xl">
-      <div class="py-20">
+    <div class="container mx-auto px-6 text-center shadow-lg shadow-black rounded-xl w-4xl hover:animate-pulse bg-blue-100">
+      <div class="py-20 ">  
       <h2 class="text-4xl font-bold text-gray-800 mb-4">Contact Me</h2>
       <p class="text-lg text-gray-600 mb-8">Feel free to reach out to me for collaboration, questions, or just to chat!</p>
       <form action="#" method="POST" class="max-w-xl mx-auto space-y-4">
