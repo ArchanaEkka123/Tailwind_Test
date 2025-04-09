@@ -33,7 +33,7 @@ function App() {
     <div class="container mx-auto px-6 text-center w-100 ">
       <img src="image1.jpeg" alt="Image with Border" class="w-70 h-auto shadow-black"/></div>
     
-  </section>s
+  </section>
 
   {/* <!-- Skills Section --> */}
   <section id="skills" class="py-16  md:bg-amber-600">  
